@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Add Gif comment
-        uses: s2chitni@Lab5-PartyHorn
         id: GifComment
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
